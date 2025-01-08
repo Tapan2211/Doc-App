@@ -1,6 +1,6 @@
 .main {
-    height: 100vh;
     padding: 10px;
+    height: 100vh;
 }
 
 .layout {
@@ -12,7 +12,7 @@
     width: 300px;
     border-radius: 5px;
     background-color: rgb(51, 1, 1);
-    box-shadow: 0 px 0px 2px gray;
+    box-shadow: 0 0 2px gray;
     margin-right: 20px;
     color: white;
 }
@@ -36,7 +36,7 @@
     background-color: white;
 }
 
-.logo {
+.logo h6 {
     font-size: 1.5rem;
     text-align: center;
     margin: 20px 0px;
@@ -58,12 +58,12 @@
 
 .menu-item i {
     font-size: 1.2rem;
-    margin: 0px 15px;
+    margin: 0 15px;
 }
 
 .active {
     background-color: white;
-    padding: 10px
+    padding: 10px;
 }
 
 .active a,
@@ -74,9 +74,9 @@
 .header-content {
     display: flex;
     align-items: center;
+    height: 50px;
     justify-content: flex-end;
-    height: 65px;
-    margin: 0 50px;
+    margin: 0 15px;
 }
 
 .header-content i {

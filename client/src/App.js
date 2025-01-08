@@ -9,6 +9,7 @@ import PublicRoute from './components/PublicRoute';
 import ApplyDoctor from './pages/ApplyDoctor';
 import Users from './pages/admin/Users';
 import Doctors from './pages/admin/Doctors';
+import NotificationPage from './pages/NotificationPage';
 
 
 function App() {
@@ -48,7 +49,7 @@ function App() {
             path="/notification"
             element={
               <ProtectedRoute>
-                {/* <NotificationPage /> */}
+                <NotificationPage />
               </ProtectedRoute>
             }
           />
