@@ -7,6 +7,7 @@ const cors = require('cors')
 
 //Router 
 const user = require('./routes/user.route');
+const adminRoute = require('./routes/admin.route')
 
 //.env config
 dotenv.config();
@@ -27,6 +28,7 @@ app.use(cors());
 
 //routes
 app.use('/api/v1/user', user);
+app.use('/api/v1/admin', adminRoute)
 
 // app.get('/', (req, res) => {
 //     res.status(200).send({
